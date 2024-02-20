@@ -1,0 +1,63 @@
+body {
+    background-image: url(../imagens/fundo9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+}
+
+.tabela {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    border-left: 2px solid turquoise;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    font-size: 20px;
+    transition: 0.5s;
+    font-family: "Arial Black", sans-serif;
+}
+
+a {
+    color: turquoise;
+    text-decoration: none;
+    max-height: auto;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 0.5em;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 0 0px white;
+}
